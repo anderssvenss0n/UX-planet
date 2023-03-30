@@ -1,7 +1,16 @@
-*, html {
+*,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans";
+}
+
+h1 {
+  color: #414141;
 }
 
 p {
@@ -21,4 +30,42 @@ img {
 
 ul {
   list-style: none;
+}
+
+.page-title {
+  font-size: 32px;
+  border-bottom: 2px solid #EFEFEF;
+  margin-bottom: 1.75rem;
+  padding: 1.5rem 1rem;
+}
+
+.card_big {
+  padding: 0rem 1rem;
+}
+.card_big img {
+  height: 17rem;
+  margin-bottom: 1rem;
+}
+.card_big h4 {
+  font-size: 22px;
+  margin-bottom: 1rem;
+}
+.card_big p {
+  margin-bottom: 1.25rem;
+}
+.card_big .profile-article {
+  display: flex;
+}
+.card_big .profile-article img {
+  flex: 0 0 3.125rem;
+  height: 3.125rem;
+}
+.card_big .profile-article .profile-link {
+  margin-left: 0.5rem;
+}
+.card_big .profile-article .profile-link a {
+  color: #1A9959;
+}
+.card_big .profile-article .profile-link .support-text {
+  color: #6C6C6C;
 }/*# sourceMappingURL=style.css.map */
