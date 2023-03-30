@@ -34,6 +34,30 @@ ul {
     list-style: none;
 }
 
+header{
+    
+    #top{
+        padding: 1rem 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: $CTA-fontsize;
+        #logo{
+           width: 34px; 
+           height: 34px;
+           background-color: black;
+        }
+        #sign{
+            
+            .get-started{
+                border: 1px solid $secondary-color;
+                border-radius: 5px;
+                padding: 0.6875rem 1.125rem;
+                margin-left: 2.1875rem ;
+            }
+        }
+    }
+}
 
 .page-title {
     font-size: $H1-fontsize;
