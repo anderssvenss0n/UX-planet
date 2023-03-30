@@ -1,21 +1,83 @@
 @import 'sass/varibales';
-*,html{
+
+*,
+html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-p{
+
+body {
+    font-family: $primary-family;
+}
+
+h1 {
+    color: $heading-color;
+}
+
+p {
     color: $primary-color;
     line-height: 1.2;
 }
-a{
+
+a {
     text-decoration: none;
     color: $secondary-color;
 }
-img{
+
+img {
     width: 100%;
     display: block;
 }
-ul{
+
+ul {
     list-style: none;
+}
+
+
+.page-title {
+    font-size: $H1-fontsize;
+    border-bottom: 2px solid $border-color;
+    margin-bottom: 1.75rem;
+    padding: 1.5rem 1rem;
+}
+
+.card_big {
+    padding: 0rem 1rem;
+
+    img {
+        height: 17rem;
+        margin-bottom: 1rem;
+    }
+
+    h4 {
+        font-size: $H4-fontsize;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        margin-bottom: 1.25rem;
+    }
+
+    .profile-article {
+        display: flex;
+
+        img {
+            flex: 0 0 3.125rem;
+            height: 3.125rem;
+
+        }
+
+        .profile-link {
+            margin-left: .5rem;
+
+            a {
+                color: $secondary-color;
+            }
+
+            .support-text {
+                color: $complement-color;
+            }
+        }
+    }
 }
